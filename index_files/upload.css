@@ -1,0 +1,9 @@
+/****************************************ͼƬչʾ--start***************************************/
+.sczp-box{padding-left: .2rem;background-color: #ffffff;padding-left:0;}
+.sczp-box .sczp-title{min-height: .9rem;line-height: 0.9rem; position: relative; padding-left: .21333333rem;}
+.sczp-box .sczp-show ul li {list-style: none;width: 1.25rem;height: 1.25rem;float: left;margin-right: .3rem;margin-bottom: .2rem;position: relative;}
+.sczp-box .sczp-show ul li img {width: 100%;max-height: 1.25rem;}
+.sczp-box .sczp-show ul li i{display: inline-block;position: absolute;width: .3rem;height: .3rem;background: url("../imgs/upload/zpsc-delete.png")/*tpa=http://7zk.fun/fake/imgs/upload/zpsc-delete.png*/ no-repeat;background-size: contain;top: -.32rem;right: -.32rem;margin: .1rem;}
+.sczp-box .sczp-icon-box {height: 1.25rem;margin-bottom: .2rem;}
+.sczp-box .sczp-icon-box .sczp-icon {display: inline-block;width: 1.25rem;height: 1.25rem;background: url("../imgs/upload/icon_sczp_upload.png")/*tpa=http://7zk.fun/fake/imgs/upload/icon_sczp_upload.png*/ no-repeat;background-size: contain;}
+.sczp-box .sczp-upload-box img{width: 1.25rem;height: 1.25rem;margin-right: .2rem;margin-bottom: .2rem;}

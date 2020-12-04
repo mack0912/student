@@ -1,0 +1,174 @@
+#sw-wrapper {
+	position: absolute;
+	z-index: 6000;
+	left: 0;
+	width: 100%;
+	font-family: helvetica, sans-serif;
+	background: rgba(0, 0, 0, .7);
+	text-align: left
+}
+
+#sw-header {
+	position: relative;
+	width: 100%;
+	height: 43px;
+	background: #f2f2f2;
+	box-shadow: 0 -3px 5px rgba(0, 0, 0, .1)
+}
+
+#sw-cancel, #sw-done {
+	position: absolute;
+	height: 43px;
+	line-height: 43px;
+	padding: 0 15px;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 700;
+	top: 0
+}
+
+#sw-cancel {
+	left: 0;
+	float: left;
+	color: #666
+}
+
+#sw-done {
+	right: 0;
+	float: right;
+	color: #72a0e6
+}
+
+#sw-slots-wrapper {
+	position: relative;
+	z-index: 999;
+	display: block;
+	height: 215px;
+	overflow: hidden
+}
+
+#sw-slots {
+	display: table;
+	width: 100%;
+	background: #f2f2f2
+}
+
+#sw-slots>:nth-child(1) {
+	width: 38%;
+	float: left
+}
+
+#sw-slots>:nth-child(2) {
+	width: 31%;
+	float: left
+}
+
+#sw-slots>:nth-child(3) {
+	width: 31%;
+	float: left
+}
+
+#sw-slots div {
+	display: table-cell;
+	height: 100%;
+	padding-top: 86px;
+	background-color: #f2f2f2
+}
+
+#sw-slots div:first-child {
+	border: 0
+}
+
+#sw-slots ul {
+	padding: 0 0 85px;
+	margin: 0;
+	list-style: none
+}
+
+#sw-slots .sw-right {
+	text-align: right
+}
+
+#sw-slots .sw-center {
+	text-align: center;
+	background: #fff
+}
+
+#sw-slots .sw-shrink {
+	width: 1%
+}
+
+#sw-slots .sw-readonly {
+	background: #f2f2f2
+}
+
+#sw-slots li {
+	padding: 0 8px;
+	height: 44px;
+	overflow: hidden;
+	font: 14px Helvetica, sans-serif;
+	color: #aaa
+}
+
+#sw-slots li.topshow {
+	margin: 10px 0 -10px
+}
+
+#sw-slots li.select {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.7
+}
+
+#sw-slots li.near {
+	font-size: 14px
+}
+
+#sw-slots li.nearb {
+	font-size: 14px;
+	line-height: 2
+}
+
+#sw-frame {
+	position: absolute;
+	z-index: 1000;
+	left: 0;
+	right: 0;
+	bottom: 18px;
+	height: 183px;
+	border-width: 16px !important
+}
+
+#sw-frame::before {
+	content: '';
+	position: absolute;
+	height: 44px;
+	line-height: 44px;
+	top: 35%;
+	width: 100%;
+	border-top: 1px solid #009afe;
+	border-bottom: 1px solid #009afe
+}
+
+#sw-slots .sw-center.noDays {
+	width: 50%
+}
+
+#sw-slots.noDays_true>:nth-child(1) {
+	width: 50%;
+	float: left
+}
+
+#sw-slots.noDays_true>:nth-child(2) {
+	width: 50%;
+	float: left
+}
+#sw-slots .sw-1 {
+	width: 100%;
+}
+#sw-slots .sw-2 {
+	width: 50%;
+}
+#sw-slots .sw-3 {
+	width: 33.33%;
+}
