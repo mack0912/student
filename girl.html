@@ -4905,8 +4905,8 @@
             var start=document.getElementById('start-time');
             var end=document.getElementById("end-time");
             var time=new Date();
-            start.innerHTML=time.getFullYear()+"-"+(eedr(time.getMonth()+1))+"-"+eedr(time.getDay()+13)+" "+eedr(time.getHours()-1)+":00";
-            end.innerHTML=time.getFullYear()+"-"+(eedr(time.getMonth()+1))+"-"+eedr(time.getDay()+14)+" "+"22:00";
+            start.innerHTML=time.getFullYear()+"-"+(eedr(time.getMonth()+1))+"-"+eedr(time.getDay())+" "+eedr(time.getHours()-1)+":00";
+            end.innerHTML=time.getFullYear()+"-"+(eedr(time.getMonth()+1))+"-"+eedr(time.getDay())+" "+"22:00";
             function eedr(n){
                 if(n<=9){
                     return "0"+n
